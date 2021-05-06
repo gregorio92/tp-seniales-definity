@@ -18,7 +18,10 @@ func count_new_instance():
 	pass
 	
 	
-	
+func delete():
+	instancesCount = 0
+	$CountLabel.text = INSTANCES_TEXT + String(instancesCount)
+	pass
 	
 func _on_VioletGenerator_button_down():
 	count_new_instance()
