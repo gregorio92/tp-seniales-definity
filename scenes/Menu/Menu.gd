@@ -10,7 +10,13 @@ func _ready():
 	$CountLabel.text = INSTANCES_TEXT + String(instancesCount)
 	pass
 
-
+func count_new_instance():
+	instancesCount += 1
+	pass
+	
+	
+	
+	
 func _on_VioletGenerator_button_down():
 	pass # Replace with function body.
 
